@@ -1,0 +1,39 @@
+{
+  "name": "es6-boilerplate",
+  "version": "2.0.0",
+  "description": "Standard ES6 Boilerplate configured with babel, webpack and eslint.",
+  "main": "index.js",
+  "scripts": {
+    "start": "watch 'npm run build' src -p /dist/",
+    "build": "node build.js && webpack -p"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "metagrover",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "eslint": "^5.10.0",
+    "eslint-watch": "^4.0.2",
+    "express": "^4.17.1",
+    "mocha": "^6.2.1",
+    "npm-run-all": "^4.0.2",
+    "shelljs": "^0.8.3",
+    "typedarray": "0.0.6",
+    "watch": "^1.0.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.2.10"
+  }
+}

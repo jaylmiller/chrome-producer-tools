@@ -1,0 +1,1 @@
+class OnsetDetectionProcessor extends AudioWorkletProcessor {}

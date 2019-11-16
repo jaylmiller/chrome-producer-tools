@@ -1,0 +1,7 @@
+{
+  "go.toolsEnvVars": {
+    "GOOS": "js",
+    "GOARCH": "wasm"
+  },
+  "go.installDependenciesWhenBuilding": false
+}

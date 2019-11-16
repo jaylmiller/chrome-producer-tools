@@ -1,0 +1,17 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <script src="wasm_exec.js"></script>
+      <script>
+            async function init() {
+                const go = new Go();
+                let result = await WebAssembly.instantiateStreaming(fetch("main.wasm"), go.importObject)
+                go.run(result.instance);
+            }
+            init().then(() => {
+                printMessage("hi")
+            })
+       </script>
+    </head>
+    <body></body>
+</html>
