@@ -24,7 +24,7 @@
     "eslint": "^5.10.0",
     "eslint-watch": "^4.0.2",
     "express": "^4.17.1",
-    "mocha": "^6.2.1",
+    "mocha": "^10.2.0",
     "npm-run-all": "^4.0.2",
     "shelljs": "^0.8.3",
     "typedarray": "0.0.6",
