@@ -25,7 +25,7 @@
     "@babel/preset-typescript": "^7.3.2",
     "@tensorflow/tfjs-node": "^1.2.10",
     "@types/mocha": "^5.2.7",
-    "mocha": "^6.2.1",
+    "mocha": "^10.2.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6"
   }
